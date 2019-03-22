@@ -1,0 +1,144 @@
+html body{
+	background: #08a4bd;
+}
+.logo{
+	height: 166px;
+	width:100%;
+	padding-left: 18%;
+	border-bottom: solid .8em #08a4bd;	
+}
+.lupa{
+	height: 32px;
+	width: 32px;
+	margin-left:-20px;
+	background-image: url(../images/search.png);
+	background-size:cover;
+}
+
+.menu{
+	background-color: #343a40;
+	position: absolute;
+	width: 20%;
+	height: 1000px;
+}
+.menu ul{
+	list-style: none;
+	padding: 1em;
+}
+.menu ul li ul li:hover{
+	background: #08a4bd;
+}
+.menu ul li a{
+	color: white;
+	font-size: 1.6em;
+}
+.menu ul li a:hover{
+	text-decoration:none;
+}
+.menu ul li i{
+	color: white;
+	font-size: 2em;
+	font-style: normal;
+	padding-left: 25%;
+}
+
+
+.contenido{
+	position: absolute;
+	background: #08a4bd;
+	margin-left: 20%;
+	width: 80%;
+	height: 1000px;
+}
+.contenido h1{
+	background-color: #343a40;
+	color: white;
+	text-align: center;
+	margin-top: 1em;
+	padding-top:.2em;
+	padding-bottom:.2em;
+}
+.contenido h2{
+	font-size: 3em;
+	text-align: center;
+}
+.formEmpleados{
+	margin-top: 5%;
+	padding-right:2em;
+	padding-top: 0px;
+}
+.tablaEmpl{
+	margin-top: 10%;
+	padding: 1em;
+}
+.tituloForm{
+	color: white;
+	text-align: center;
+	font-size: 3em;
+}
+table.table-striped{
+	background: lightgray;
+}
+
+a:active, a:active * { outline: none !important; -moz-outline-style: none !important; }
+a:focus, a:focus * { outline: none !important; -moz-outline-style: none !important; }
+
+.login{
+	margin: 0 auto;
+	margin-top:5em;
+	height: 450px;
+	width: 40%;
+	background: #000;
+	color: white;
+	-webkit-box-shadow: 25px 25px 28px 16px rgba(0,0,0,0.75);
+	-moz-box-shadow: 25px 25px 28px 16px rgba(0,0,0,0.75);
+	box-shadow: 25px 25px 28px 16px rgba(0,0,0,0.75);
+}
+.login .login-header{
+	width: 100%;
+	height: 20%;
+	border-bottom:2px solid white;
+}
+.login .login-header h1{
+	text-align: center;
+	font-size: 4em;
+}
+.login .login-body{
+	width: 100%;
+	height: 70%;
+	border-bottom:2px solid white;
+	overflow: hidden;
+	padding: 2em 3em 2em 3em;
+}
+.login .login-body button{
+	width: 100%;
+}
+.login .login-footer{
+	width: 100%;
+	height: 10%;
+}
+.login .login-footer p{
+	text-align: center;
+}
+
+
+
+.formClientes{
+	padding: 1em 2em 1em 2em;
+}
+
+.formClientes button{
+	width: 100%;
+}
+
+.clientes h1{
+	background-color: #343a40;
+	color: white;
+	text-align: center;
+	margin-top: 1em;
+	padding-top:.2em;
+	padding-bottom:.2em;
+}
+
+
+

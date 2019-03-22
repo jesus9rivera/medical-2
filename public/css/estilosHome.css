@@ -1,0 +1,86 @@
+html body{
+
+}
+
+.encabezado{
+	width: 100%;
+	height: 4em;
+	background:#273043;
+	position: fixed;
+	display: block;
+}
+.encabezado .titulo{
+	margin-left: 1em;
+	margin-top:.4rem;
+	padding: 0px;
+	display: inline-block;
+	color: #fff;
+	font-size: 2em;
+}
+.encabezado .opciones{
+	display: inline-block;
+	float: right;
+	padding: 1rem;
+	padding-right: 4em;
+}
+.encabezado .opciones input{
+	position: relative;
+	display: inline-block;
+	width: 150px;
+	height: 2em;
+	border-radius: 19px;
+	padding-left: 10px;
+}
+.encabezado .opciones a{
+	color: #6b9080;
+	font-size: 1.2rem;
+	padding-left:1em;
+}
+.encabezado .opciones a:hover{
+	color: #aec2b9;
+	text-decoration: none;
+}
+
+/*-----------------------------Formulario de registro------------------------------*/
+
+.registro{
+
+}
+.margen{
+	height: 5em;
+}
+.card.registro{
+	background: transparent;
+	border: 2px solid black;
+}
+.registro .card-header{
+	background-color: rgba(0,0,0,.3);
+	border-bottom: 1px solid black;
+}
+.registro .card-header .titulo{
+	color: #fff;
+	font-size: 1.8em;
+}
+.bodyRegistro{
+	background-image: url('../imagenes/registro-fondo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.registroExitoso{
+	margin-top: 10%;
+}
+.registroExitoso h1{
+	margin-top: 4%;
+	font-size: 5em;
+}
+.registroExitoso h2{
+	margin-top: 10%;
+	font-size: 2em;
+	padding-right: 3em;
+	text-align:justify;
+}
+
+a:active, a:active * { outline: none !important; -moz-outline-style: none !important; }
+a:focus, a:focus * { outline: none !important; -moz-outline-style: none !important; }
